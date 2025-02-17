@@ -13,15 +13,15 @@ npm install --save canvas-lti-auto-resizer
 ## Usage
 
 ```tsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import MyComponent from 'canvas-lti-auto-resizer'
-import 'canvas-lti-auto-resizer/dist/index.css'
+import { CanvasLTIAutoResizer } from 'canvas-lti-auto-resizer'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const MyLTIComponent = (props) => {
+
+  return (<CanvasLTIAutoResizer additional={50}>
+    <MyLTIComponent />
+  </CanvasLTIAutoResizer>)
 }
 ```
 
