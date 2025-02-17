@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import { CanvasLTIAutoResize } from '.'
 
-describe('ExampleComponent', () => {
+describe('CanvasLTIAutoResize', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(CanvasLTIAutoResize).toBeTruthy()
   })
 })
